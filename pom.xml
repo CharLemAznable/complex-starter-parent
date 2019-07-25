@@ -12,7 +12,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-starter-parent</artifactId>
-    <version>0.0.8</version>
+    <version>0.0.9</version>
 
     <packaging>pom</packaging>
     <name>Complex SpringBoot Starter Parent</name>
@@ -56,7 +56,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
 
-        <complex-kits.version>0.6.1</complex-kits.version>
+        <complex-kits.version>0.6.2</complex-kits.version>
         <eql.version>0.1.13</eql.version>
         <druid.version>1.1.18</druid.version>
         <westcache.version>0.0.35</westcache.version>
