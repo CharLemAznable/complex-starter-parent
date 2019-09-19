@@ -12,7 +12,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-starter-parent</artifactId>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
 
     <packaging>pom</packaging>
     <name>Complex SpringBoot Starter Parent</name>
@@ -64,6 +64,7 @@
         <lombok.version>1.18.10</lombok.version>
 
         <junit-jupiter-engine.version>5.5.2</junit-jupiter-engine.version>
+        <jmockit.version>1.48</jmockit.version>
 
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
@@ -134,6 +135,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jmockit</groupId>
+            <artifactId>jmockit</artifactId>
+            <version>${jmockit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
