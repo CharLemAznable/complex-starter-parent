@@ -12,7 +12,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-starter-parent</artifactId>
-    <version>0.2.6</version>
+    <version>0.2.7</version>
 
     <packaging>pom</packaging>
     <name>Complex SpringBoot Starter Parent</name>
@@ -57,7 +57,7 @@
         <java.version>1.8</java.version>
 
         <commons-lang3.version>3.9</commons-lang3.version>
-        <complex-kits.version>0.9.2</complex-kits.version>
+        <complex-kits.version>0.9.3</complex-kits.version>
 
         <lombok.version>1.18.10</lombok.version>
 
