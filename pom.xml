@@ -12,7 +12,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-starter-parent</artifactId>
-    <version>0.3.2</version>
+    <version>0.3.3</version>
 
     <packaging>pom</packaging>
     <name>Complex SpringBoot Starter Parent</name>
@@ -62,12 +62,13 @@
         <guava.version>28.1-jre</guava.version>
         <slf4j-api.version>1.7.28</slf4j-api.version>
         <fastjson.version>1.2.62</fastjson.version>
-        <complex-kits.version>0.10.2</complex-kits.version>
+        <complex-kits.version>0.10.3</complex-kits.version>
 
         <lombok.version>1.18.10</lombok.version>
 
         <junit-jupiter.version>5.5.2</junit-jupiter.version>
         <jmockit.version>1.48</jmockit.version>
+        <awaitility.version>4.0.1</awaitility.version>
 
         <eql.version>0.1.13</eql.version>
         <druid.version>1.1.20</druid.version>
@@ -85,6 +86,7 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
         <jacoco-maven-plugin.version>0.8.4</jacoco-maven-plugin.version>
+        <sonar-maven-plugin.version>3.6.1.1688</sonar-maven-plugin.version>
         <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
@@ -159,6 +161,12 @@
             <groupId>org.jmockit</groupId>
             <artifactId>jmockit</artifactId>
             <version>${jmockit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.awaitility</groupId>
+            <artifactId>awaitility</artifactId>
+            <version>${awaitility.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -285,6 +293,16 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.sonarsource.scanner.maven</groupId>
+                    <artifactId>sonar-maven–plugin</artifactId>
+                    <version>${sonar-maven-plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 
     <profiles>
