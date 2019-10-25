@@ -14,3 +14,13 @@ SpringBoot常用Starter Pom.
   <version>0.3.4</version>
 </parent>
 ```
+
+##### Maven Parent SNAPSHOT
+
+```xml
+<parent>
+  <groupId>com.github.charlemaznable</groupId>
+  <artifactId>complex-starter-parent</artifactId>
+  <version>0.4.0-SNAPSHOT</version>
+</parent>
+```
