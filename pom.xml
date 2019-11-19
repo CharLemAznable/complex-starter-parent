@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.0.RELEASE</version>
+        <version>2.2.1.RELEASE</version>
     </parent>
 
     <groupId>com.github.charlemaznable</groupId>
@@ -60,7 +60,7 @@
         <cglib-nodep.version>3.3.0</cglib-nodep.version>
         <commons-pool2.version>2.7.0</commons-pool2.version>
         <guava.version>28.1-jre</guava.version>
-        <slf4j-api.version>1.7.28</slf4j-api.version>
+        <slf4j-api.version>1.7.29</slf4j-api.version>
         <fastjson.version>1.2.62</fastjson.version>
         <complex-kits.version>0.11.0-SNAPSHOT</complex-kits.version>
 
