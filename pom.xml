@@ -71,23 +71,23 @@
         <awaitility.version>4.0.1</awaitility.version>
 
         <eql.version>0.1.13</eql.version>
-        <druid.version>1.1.20</druid.version>
+        <druid.version>1.1.21</druid.version>
         <asm-all.version>5.2</asm-all.version>
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
-        <quartz.version>2.3.1</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <jedis.version>3.1.0</jedis.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <westid.version>0.0.3</westid.version>
-        <h2.version>1.4.199</h2.version>
+        <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
 
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
-        <jacoco-maven-plugin.version>0.8.4</jacoco-maven-plugin.version>
-        <sonar-maven-plugin.version>3.6.1.1688</sonar-maven-plugin.version>
-        <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
+        <jacoco-maven-plugin.version>0.8.5</jacoco-maven-plugin.version>
+        <sonar-maven-plugin.version>3.7.0.1746</sonar-maven-plugin.version>
+        <maven-source-plugin.version>3.2.0</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
     </properties>
