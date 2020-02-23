@@ -82,6 +82,7 @@
         <slf4j-api.version>1.7.30</slf4j-api.version>
         <fastjson.version>1.2.62</fastjson.version>
         <auto-service.version>1.0-rc6</auto-service.version>
+        <guice.version>4.2.2</guice.version>
         <complex-kits.version>0.11.2-SNAPSHOT</complex-kits.version>
 
         <lombok.version>1.18.12</lombok.version>
@@ -164,6 +165,11 @@
             <groupId>com.google.auto.service</groupId>
             <artifactId>auto-service</artifactId>
             <version>${auto-service.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>${guice.version}</version>
         </dependency>
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
