@@ -105,6 +105,7 @@
         <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
         <netty-all.version>4.1.50.Final</netty-all.version>
+        <redisson.version>3.13.0</redisson.version>
 
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
@@ -311,6 +312,11 @@
                 <groupId>io.netty</groupId>
                 <artifactId>netty-all</artifactId>
                 <version>${netty-all.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson</artifactId>
+                <version>${redisson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
