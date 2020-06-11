@@ -75,7 +75,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
 
-        <commons-lang3.version>3.9</commons-lang3.version>
+        <commons-lang3.version>3.10</commons-lang3.version>
         <cglib-nodep.version>3.3.0</cglib-nodep.version>
         <commons-pool2.version>2.8.0</commons-pool2.version>
         <guava.version>29.0-jre</guava.version>
@@ -105,7 +105,7 @@
         <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
         <netty-all.version>4.1.50.Final</netty-all.version>
-        <redisson.version>3.13.0</redisson.version>
+        <redisson.version>3.13.1</redisson.version>
 
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
