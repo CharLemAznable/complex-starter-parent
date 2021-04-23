@@ -11,7 +11,7 @@ SpringBoot常用Starter Pom.
 <parent>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>complex-starter-parent</artifactId>
-  <version>0.5.0</version>
+  <version>0.5.1</version>
 </parent>
 ```
 
@@ -21,6 +21,6 @@ SpringBoot常用Starter Pom.
 <parent>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>complex-starter-parent</artifactId>
-  <version>0.5.1-SNAPSHOT</version>
+  <version>0.5.2-SNAPSHOT</version>
 </parent>
 ```

@@ -12,7 +12,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-starter-parent</artifactId>
-    <version>0.5.1-SNAPSHOT</version>
+    <version>0.5.2-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     <name>Complex SpringBoot Starter Parent</name>
@@ -83,7 +83,7 @@
         <fastjson.version>1.2.76</fastjson.version>
         <auto-service.version>1.0</auto-service.version>
         <guice.version>5.0.1</guice.version>
-        <complex-kits.version>0.12.1-SNAPSHOT</complex-kits.version>
+        <complex-kits.version>0.12.2-SNAPSHOT</complex-kits.version>
 
         <lombok.version>1.18.20</lombok.version>
 
@@ -93,7 +93,7 @@
         <vertx.version>3.9.7</vertx.version>
 
         <logback-classic.version>1.2.3</logback-classic.version>
-        <logback-miner.version>0.1.1-SNAPSHOT</logback-miner.version>
+        <logback-miner.version>0.1.2-SNAPSHOT</logback-miner.version>
         <eql.version>0.1.14</eql.version>
         <druid.version>1.2.6</druid.version>
         <asm-all.version>5.2</asm-all.version>
