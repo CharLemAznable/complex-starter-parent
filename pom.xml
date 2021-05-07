@@ -84,6 +84,7 @@
         <auto-service.version>1.0</auto-service.version>
         <guice.version>5.0.1</guice.version>
         <complex-kits.version>0.12.2-SNAPSHOT</complex-kits.version>
+        <gentle-factory.version>0.0.2-SNAPSHOT</gentle-factory.version>
 
         <lombok.version>1.18.20</lombok.version>
 
@@ -187,6 +188,11 @@
             <groupId>com.github.charlemaznable</groupId>
             <artifactId>complex-kits</artifactId>
             <version>${complex-kits.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.charlemaznable</groupId>
+            <artifactId>gentle-factory</artifactId>
+            <version>${gentle-factory.version}</version>
         </dependency>
 
         <dependency>
