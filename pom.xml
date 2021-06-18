@@ -12,7 +12,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-starter-parent</artifactId>
-    <version>0.5.2-SNAPSHOT</version>
+    <version>0.5.3-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     <name>Complex SpringBoot Starter Parent</name>
@@ -83,8 +83,8 @@
         <fastjson.version>1.2.76</fastjson.version>
         <auto-service.version>1.0</auto-service.version>
         <guice.version>5.0.1</guice.version>
-        <complex-kits.version>0.12.2-SNAPSHOT</complex-kits.version>
-        <gentle-factory.version>0.0.2-SNAPSHOT</gentle-factory.version>
+        <complex-kits.version>0.12.3-SNAPSHOT</complex-kits.version>
+        <gentle-factory.version>0.0.3-SNAPSHOT</gentle-factory.version>
 
         <lombok.version>1.18.20</lombok.version>
 
@@ -93,10 +93,10 @@
         <okhttp.version>3.14.9</okhttp.version>
         <vertx.version>3.9.8</vertx.version>
 
-        <gentle-boot.version>0.0.2-SNAPSHOT</gentle-boot.version>
+        <gentle-boot.version>0.0.3-SNAPSHOT</gentle-boot.version>
         <logback-classic.version>1.2.3</logback-classic.version>
-        <logback-miner-annotations.version>0.1.2-SNAPSHOT</logback-miner-annotations.version>
-        <logback-miner.version>0.1.2-SNAPSHOT</logback-miner.version>
+        <logback-miner-annotations.version>0.1.3-SNAPSHOT</logback-miner-annotations.version>
+        <logback-miner.version>0.1.3-SNAPSHOT</logback-miner.version>
         <eql.version>0.1.14</eql.version>
         <druid.version>1.2.6</druid.version>
         <asm-all.version>5.2</asm-all.version>
