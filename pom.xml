@@ -90,7 +90,7 @@
 
         <junit-jupiter.version>5.7.2</junit-jupiter.version>
         <jmockit.version>1.49</jmockit.version>
-        <okhttp.version>4.9.1</okhttp.version>
+        <okhttp.version>3.14.9</okhttp.version><!-- from spring-boot 2.5.1 -->
         <vertx.version>4.1.0</vertx.version>
 
         <gentle-boot.version>0.0.3-SNAPSHOT</gentle-boot.version>
