@@ -76,11 +76,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
 
-        <complex-kits.version>0.12.5-SNAPSHOT</complex-kits.version>
-        <lombok.version>1.18.22</lombok.version>
-        <junit-jupiter.version>5.8.2</junit-jupiter.version>
+        <complex-management.version>0.2.5-SNAPSHOT</complex-management.version>
+
+        <!-- version fix -->
+        <h2.version>2.0.206</h2.version>
+        <jedis.version>4.0.1</jedis.version>
         <jmockit.version>1.49</jmockit.version>
-        <complex-dependencies.version>0.5.5-SNAPSHOT</complex-dependencies.version>
+        <logback.version>1.2.10</logback.version>
+        <!-- version fix end -->
 
         <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
@@ -97,9 +100,7 @@
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
             <artifactId>complex-kits</artifactId>
-            <version>${complex-kits.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -122,25 +123,21 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.jmockit</groupId>
             <artifactId>jmockit</artifactId>
-            <version>${jmockit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -153,7 +150,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>mockwebserver</artifactId>
@@ -180,8 +176,8 @@
         <dependencies>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>complex-dependencies</artifactId>
-                <version>${complex-dependencies.version}</version>
+                <artifactId>complex-management</artifactId>
+                <version>${complex-management.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
