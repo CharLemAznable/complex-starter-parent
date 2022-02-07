@@ -80,7 +80,7 @@
 
         <!-- version fix -->
         <h2.version>2.1.210</h2.version>
-        <jedis.version>4.1.0</jedis.version>
+        <jedis.version>4.1.1</jedis.version>
         <jmockit.version>1.49</jmockit.version>
         <logback.version>1.2.10</logback.version>
         <!-- version fix end -->
