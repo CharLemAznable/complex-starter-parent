@@ -81,7 +81,7 @@
         <!-- version fix -->
         <h2.version>2.1.210</h2.version>
         <netty.version>4.1.74.Final</netty.version>
-        <jedis.version>4.1.1</jedis.version>
+        <jedis.version>4.2.0</jedis.version>
         <!-- version fix end -->
 
         <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
