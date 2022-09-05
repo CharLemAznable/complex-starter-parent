@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.7</version>
+        <version>2.7.3</version>
     </parent>
 
     <groupId>com.github.charlemaznable</groupId>
@@ -79,9 +79,9 @@
         <complex-management.version>0.2.9-SNAPSHOT</complex-management.version>
 
         <!-- version fix -->
-        <h2.version>2.1.212</h2.version>
-        <netty.version>4.1.74.Final</netty.version>
-        <jedis.version>4.2.2</jedis.version>
+        <h2.version>2.1.214</h2.version>
+        <netty.version>4.1.78.Final</netty.version>
+        <jedis.version>4.2.3</jedis.version>
         <!-- version fix end -->
 
         <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
