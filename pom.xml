@@ -80,7 +80,7 @@
 
         <!-- version fix -->
         <h2.version>2.1.214</h2.version>
-        <netty.version>4.1.82.Final</netty.version>
+        <netty.version>4.1.85.Final</netty.version>
         <jedis.version>4.3.1</jedis.version>
         <!-- version fix end -->
 
