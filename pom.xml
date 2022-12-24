@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.6</version>
+        <version>3.0.1</version>
     </parent>
 
     <groupId>com.github.charlemaznable</groupId>
@@ -22,7 +22,7 @@
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -61,6 +61,17 @@
         </repository>
     </repositories>
 
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
     <distributionManagement>
         <repository>
             <id>ossrh</id>
@@ -74,26 +85,24 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
 
         <complex-management.version>2023.0.0-SNAPSHOT</complex-management.version>
 
         <!-- version fix -->
-        <h2.version>2.1.214</h2.version>
         <netty.version>4.1.85.Final</netty.version>
-        <jedis.version>4.3.1</jedis.version>
         <!-- version fix end -->
 
-        <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
-        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
+        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
-        <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
+        <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
         <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
-        <versions-maven-plugin.version>2.9.0</versions-maven-plugin.version>
+        <versions-maven-plugin.version>2.13.0</versions-maven-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.4.1</maven-javadoc-plugin.version>
         <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
-        <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
+        <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
     </properties>
 
     <dependencies>
@@ -202,6 +211,22 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
+                <configuration>
+                    <argLine>
+                        @{argLine}
+                        --add-opens java.base/java.io=ALL-UNNAMED
+                        --add-opens java.base/java.lang=ALL-UNNAMED
+                        --add-opens java.base/java.math=ALL-UNNAMED
+                        --add-opens java.base/java.net=ALL-UNNAMED
+                        --add-opens java.base/java.nio=ALL-UNNAMED
+                        --add-opens java.base/java.security=ALL-UNNAMED
+                        --add-opens java.base/java.text=ALL-UNNAMED
+                        --add-opens java.base/java.time=ALL-UNNAMED
+                        --add-opens java.base/java.util=ALL-UNNAMED
+                        --add-opens java.base/jdk.internal.access=ALL-UNNAMED
+                        --add-opens java.base/jdk.internal.misc=ALL-UNNAMED
+                    </argLine>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -304,7 +329,7 @@
                             <encoding>UTF-8</encoding>
                             <docencoding>UTF-8</docencoding>
                             <links>
-                                <link>http://docs.oracle.com/javase/8/docs/api</link>
+                                <link>https://docs.oracle.com/javase/17/docs/api</link>
                             </links>
                         </configuration>
                     </plugin>
