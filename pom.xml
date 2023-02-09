@@ -12,7 +12,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-starter-parent</artifactId>
-    <version>2023.0.1-SNAPSHOT</version>
+    <version>2023.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex SpringBoot Starter Parent</name>
@@ -87,7 +87,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
 
-        <complex-management.version>2023.0.1-SNAPSHOT</complex-management.version>
+        <complex-management.version>2023.0.2-SNAPSHOT</complex-management.version>
 
         <!-- version fix -->
         <netty.version>4.1.86.Final</netty.version>
